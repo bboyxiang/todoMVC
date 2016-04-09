@@ -2,7 +2,7 @@
  * @Author: Marte
  * @Date:   2016-03-30 10:35:41
  * @Last Modified by:   Marte
- * @Last Modified time: 2016-03-30 14:54:01
+ * @Last Modified time: 2016-04-09 22:48:37
  */
 
 (function(angular) {
@@ -14,7 +14,7 @@
         '$location',
         'Storage',
 
-        function($scope, $location,Storage) {
+        function($scope, $location, Storage) {
 
             $scope.randomId = function() {
                 return Math.random();
